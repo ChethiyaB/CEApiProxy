@@ -14,6 +14,7 @@
             <call>
                 <endpoint key="StudentsEndpoint"/>
             </call>
+            <respond/>
         </inSequence>
         <faultSequence>
         </faultSequence>
@@ -26,6 +27,7 @@
             <call>
                 <endpoint key="ProjectsEndpoint"/>
             </call>
+            <respond/>
         </inSequence>
         <faultSequence>
         </faultSequence>
