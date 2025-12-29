@@ -6,4 +6,10 @@
         <faultSequence>
         </faultSequence>
     </resource>
+    <resource methods="GET" uri-template="/students">
+        <inSequence>
+        </inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
 </api>

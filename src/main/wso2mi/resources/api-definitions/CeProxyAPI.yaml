@@ -12,3 +12,8 @@ paths:
       responses:
         default:
           description: Default response
+  /students:
+    get:
+      responses:
+        default:
+          description: Default response
