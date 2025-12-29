@@ -20,6 +20,12 @@
     </resource>
     <resource methods="GET" uri-template="/projects">
         <inSequence>
+            <log category="INFO" logMessageID="false" logFullPayload="false">
+                <message></message>
+            </log>
+            <call>
+                <endpoint key="ProjectsEndpoint"/>
+            </call>
         </inSequence>
         <faultSequence>
         </faultSequence>
