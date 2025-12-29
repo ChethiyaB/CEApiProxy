@@ -12,4 +12,10 @@
         <faultSequence>
         </faultSequence>
     </resource>
+    <resource methods="GET" uri-template="/projects">
+        <inSequence>
+        </inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
 </api>
