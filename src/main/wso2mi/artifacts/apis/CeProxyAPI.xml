@@ -8,6 +8,9 @@
     </resource>
     <resource methods="GET" uri-template="/students">
         <inSequence>
+            <log category="INFO" logMessageID="false" logFullPayload="false">
+                <message></message>
+            </log>
             <call>
                 <endpoint key="StudentsEndpoint"/>
             </call>
